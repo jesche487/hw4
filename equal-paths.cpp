@@ -26,6 +26,7 @@ bool equalPathsRecursion(Node * root, int currdepth, int& otherdepth) {
 bool equalPaths(Node * root)
 {
     // Add your code below
-    return equalPathsRecursion(root, 0, -1);
+    int otherdepth = -1;
+    return equalPathsRecursion(root, 0, otherdepth);
 }
 
